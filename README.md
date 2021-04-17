@@ -1,39 +1,28 @@
 # WorldNews-UpVotes-Anomaly-Detection-LSTM
 1. Dataset
-  A large dataset (72.7 MB) of time-series news information published on Worldnews, 
-
-1. Motivation 
-
-    Given a large dataset of time-series news information published on Worldnews, I want to investigate the  
-    A starup company wants to analyze the data of songs and user activity on their music streaming app. 
-    Song data resides in a directory with JSON metadata on the songs in their app and activity data resides 
-    in a directory of JSON logs on user activity on the app.
-    The company wants to create a Postgres database schema and ETL pipeline for this analysis. 
+  A large dataset (72.7 MB) of time-series news information published on Worldnews between 1/25/2008 and 11/22/2016, a peek on this dataset is shown below: ![data](Peek_on_data.jpg).
+ There are 509236 rows and 8 columns which are "time_created", "date_created", "up_votes", "down_votes", "title", "over_18", "author", and "category". Note that in  "down_votes" column, the numbers are all zero and there is only one category which is Worldnews.
+ 
+2. Motivation 
+Given such dataset, an overall goal is to find any association between the large number of up votes and the types of news. Such information can serve as a guidence for inserting appropriate adds on the news pages. To do this, we can perform the following tasks step by step. 
+* Exploring the yearly, monthly, and daily trends of the number of news and their corresponding up votes. 
+* Using Machine Learning (ML) techniques to identify anomalies in the time-series up votes. 
+* Perform Natural Language Processing (NLP) techniques on the "anomaly" news to extract the most frequent words in such news  
   
-2. Methods
-
-  * `create_tables.py`
-    
-    The script connects to the Sparkify database, drops any tables if they exist, and creates the tables
-  * `sql_queries.py`
-    
-    The scirpt specify all columns for each of the five tables (`songplays`, `users`, `songs`, `artists`, `time`). 
-    The ER diagram is shown below:
-    ![ER diagram](ER.png)
-  * `etl.py`
-    
-    The script connects to the Sparkify database, extracts and processes the `log_data` and `song_data`, and insert data into the five tables.
 3. Technologies Used
 
  * Python
     - numpy
     - pandas
-    - psycopg2
-    - os
-    - glob
- * PostgreSQL
- 
- 
-4. How to run the scripts
+    - matplotlib
+ * TensorFlow
+ * Keras
+ * Sklearn
+ * NLTK
 
-    First run `create_tables.py`, then run `etl.py`.
+4. How to run the scripts
+* Files
+  -  `Eluvio_DS_Challenge.csv`
+  -  `WorldNews_Anomaly_Detection_LSTM.ipynb`.
+* Make sure the data file and the jupyter notebook in the same folder
+* Open `WorldNews_Anomaly_Detection_LSTM.ipynb` and run it 
