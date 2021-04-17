@@ -60,4 +60,4 @@ Twenty most frequent words in the anomalies were identified and they are "attack
  ![freq](Freqent-words-anomalies.png)
  
 6. Conclusion
-Based on our analysis, both the news number and the up votes are increasing each year probably due to the popularity of the person electronic devices. People can easily access news nowadays. The LSTM and NLP results suggest that terror attack news seemed to attracted most readings and up votes. Implemation adds on such news should be further investigated, including obtain more detailed data of the readers, A/B testing, and some other experiment design and analysis technique. 
+Based on our analysis, both the news number and the up votes are increasing each year probably due to the popularity of the person electronic devices. People can easily access news nowadays. The LSTM and NLP results suggest that terror attack news seemed to attracted most readings and up votes. Implemation adds on such news should be further investigated, including obtain more detailed data of the readers, A/B testing, and some other experiment design and analysis techniques. 
