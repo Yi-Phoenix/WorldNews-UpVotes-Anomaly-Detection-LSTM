@@ -55,5 +55,9 @@ The daily up votes had increased dramatically over the course of the 8 years wit
  ![ano1](Ano_vots.jpg)
  
 * Most frequent words in the anomalies
-* 
+Twenty most frequent words in the anomalies were identified and they are "attack", "pari" (paris), "isi" etc. We may conclude that those news are about France launched air strikes on Isis stronghold Raqqa in Syria in wake of terror attack on Paris.
+
  ![freq](Freqent-words-anomalies.png)
+ 
+6. Conclusion
+Based on our analysis, both the news number and the up votes are increasing each year probably due to the popularity of the person electronic devices. People can easily access news nowadays. The LSTM and NLP results suggest that terror attack news seemed to attracted most readings and up votes. Implemation adds on such news should be further investigated, including obtain more detailed data of the readers, A/B testing, and some other experiment design and analysis technique. 
