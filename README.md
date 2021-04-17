@@ -44,6 +44,10 @@ The daily up votes had increased dramatically over the course of the 8 years wit
 
  ![day](Daily-trends.png)
  
- We then used the LSTM autoencoder technique to identify anomalies in the time-series daily up votes and the results are shown below:
+ We then used the LSTM autoencoder technique to identify 4 anomalies in the time-series daily up votes and the results are shown below:
  ![ano](LSTM-Anomalies.png)
+ 
+ ![ano1](Ano_counts.jpg)
+ 
+ ![ano1](Ano_votes.jpg)
  
