@@ -49,5 +49,5 @@ The daily up votes had increased dramatically over the course of the 8 years wit
  
  ![ano1](Ano_counts.jpg)
  
- ![ano1](Ano_votes.jpg)
+ ![ano1](Ano_vots.jpg)
  
