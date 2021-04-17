@@ -26,3 +26,6 @@ Given such dataset, an overall goal is to find any association between the large
   -  `WorldNews_Anomaly_Detection_LSTM.ipynb`.
 * Make sure the data file and the jupyter notebook in the same folder
 * Open `WorldNews_Anomaly_Detection_LSTM.ipynb` and run it 
+
+5. Results
+![year](Yearly trends.png).
