@@ -28,4 +28,22 @@ Given such dataset, an overall goal is to find any association between the large
 * Open `WorldNews_Anomaly_Detection_LSTM.ipynb` and run it 
 
 5. Results
-![year](Yearly trends.png).
+* Yearly trend of the news
+There is an overall increase in the yearly number of news from 2008 to 2016 with a peak in 2015, the similar trend was observed in the number of up votes.
+
+![year](Yearly-trends.png).
+
+
+* Monthly trend of the news
+We then investigate the monthly trends and found that March, July, and October had slightly higher number of news and least number of news was observed in December. The up votes showed the similar trend as the number of news in each month.
+
+![month](Monthly-trends.png)
+
+* Daily trend of the news
+The daily up votes had increased dramatically over the course of the 8 years with some daily flucturations. The highest daily up votes is above 80000.
+
+ ![day](Daily-trends.png)
+ 
+ We then used the LSTM autoencoder technique to identify anomalies in the time-series daily up votes and the results are shown below:
+ ![ano](LSTM-Anomalies.png)
+ 
