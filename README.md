@@ -56,4 +56,4 @@ The daily up votes had increased dramatically over the course of the 8 years wit
  
 * Most frequent words in the anomalies
 * 
- ![freq](Frequent-words-anomalies.png)
+ ![freq](Freqent-words-anomalies.png)
