@@ -46,7 +46,7 @@ The daily up votes had increased dramatically over the course of the 8 years wit
  
  We then used the LSTM autoencoder technique to identify 4 anomalies in the time-series daily up votes and the results are shown below:
  ![ano](LSTM-Anomalies.png)
- 
+ The four anomalies corresponded to dates Nov 15, 22, 23, and 27 in the year of 2015. There are about 300 news with more than 50000 up votes in each of the four days. 
  ![ano1](Ano_counts.jpg)
  
  ![ano1](Ano_vots.jpg)
